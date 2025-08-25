@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Sentiment API</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; max-width: 800px; }
+    textarea { width: 100%; min-height: 120px; }
+    button { padding: .6rem 1rem; cursor: pointer; }
+    .result { margin-top: 1rem; padding: 1rem; border: 1px solid #ddd; border-radius: .5rem; white-space: pre-wrap; }
+    code { background: #f7f7f7; padding: .2rem .4rem; border-radius: .3rem; }
+  </style>
+</head>
+<body>
+  <h1>Test de l'API d'analyse de sentiments</h1>
+  <p>
+    Tapez un texte et cliquez sur <b>Analyser</b>. L'API appelle <code>POST /predict</code> et affiche le JSON de réponse.
+  </p>
+
+  <textarea id="text" placeholder="I love this product!"></textarea><br><br>
+  <button id="btn">Analyser</button>
+  <div class="result" id="result">Résultat…</div>
+
+  <script>
+    const btn = document.getElementById('btn');
+    const result = document.getElementById('result');
+
+    btn.onclick = async () => {
+      const text = document.getElementById('text').value.trim();
+      if (!text) { result.textContent = "Veuillez saisir un texte."; return; }
+      result.textContent = "Analyse en cours...";
+      try {
+        const resp = await fetch("/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text })
+        });
+        const data = await resp.json();
+        result.textContent = JSON.stringify(data, null, 2);
+      } catch (e) {
+        result.textContent = "Erreur: " + e.message;
+      }
+    };
+  </script>
+</body>
+</html>
