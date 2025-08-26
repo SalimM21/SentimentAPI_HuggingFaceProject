@@ -40,7 +40,7 @@ app.add_middleware(
 )
 
 # Serve static files (page HTML de test)
-STATIC_DIR = os.path.join(os.path.dirname(__file__), "..", "static")
+STATIC_DIR = os.path.join(os.path.dirname(__file__), "../static")
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 @app.get("/", include_in_schema=False)

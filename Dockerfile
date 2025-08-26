@@ -22,7 +22,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copier le reste du projet
 COPY . .
-COPY static ./static
 
 # Exposer le port 7860 (obligatoire pour HF Spaces)
 EXPOSE 7860

@@ -1,26 +1,40 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Test Sentiment API</title>
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; max-width: 800px; }
-    textarea { width: 100%; min-height: 120px; }
-    button { padding: .6rem 1rem; cursor: pointer; }
-    .result { margin-top: 1rem; padding: 1rem; border: 1px solid #ddd; border-radius: .5rem; white-space: pre-wrap; }
-    code { background: #f7f7f7; padding: .2rem .4rem; border-radius: .3rem; }
-  </style>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Test de l'API d'analyse de sentiments</h1>
-  <p>
-    Tapez un texte et cliquez sur <b>Analyser</b>. L'API appelle <code>POST /predict</code> et affiche le JSON de réponse.
-  </p>
 
-  <textarea id="text" placeholder="I love this product!"></textarea><br><br>
-  <button id="btn">Analyser</button>
-  <div class="result" id="result">Résultat…</div>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="max-w-2xl w-full bg-white shadow-md rounded-2xl p-8">
+    <h1 class="text-2xl font-bold mb-4">Test de l'API pour l'analyse des sentiments</h1>
+    <p class="text-gray-700 mb-6">
+      Tapez un texte et cliquez sur <b>Analyser</b>.
+      <!-- L'API appelle <code class="bg-gray-100 px-1 py-0.5 rounded">POST /predict</code> et affiche le JSON de réponse. -->
+    </p>
+
+    <div class="mb-4">
+      <label for="text" class="block font-medium text-gray-800 mb-2">Votre texte</label>
+      <textarea id="text" rows="4" placeholder="I love this product!"
+        class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+    </div>
+
+    <button id="btn" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">
+      Analyser
+    </button>
+
+    <div class="mt-6">
+      <h5 class="text-lg font-semibold">Résultat</h5>
+      <pre id="result"
+        class="mt-2 border border-gray-300 rounded-lg bg-gray-50 p-4 text-sm text-gray-800 whitespace-pre-wrap">
+Résultat…
+      </pre>
+    </div>
+  </div>
 
   <script>
     const btn = document.getElementById('btn');
@@ -44,4 +58,5 @@
     };
   </script>
 </body>
+
 </html>
