@@ -1,6 +1,3 @@
-# SentimentAPI_HuggingFaceProject
-Développement d’une API d’analyse de sentiments recevant un texte et retournant, automatiquement et clairement, un résultat positif ou négatif accompagné d’un score de confiance. L’API est conteneurisée (Docker) et déployée publiquement en ligne sur Hugging Face Spaces ; une page HTML minimale permet de la tester rapidement.
-
 # 🚀 Sentiment Analysis API (FastAPI + Hugging Face)
 
 Cette application fournit une **API REST** et une **page web de test** pour analyser le sentiment (positif/négatif) d’un texte en utilisant un modèle Hugging Face (`distilbert-base-uncased-finetuned-sst-2-english`).
