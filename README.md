@@ -13,7 +13,7 @@ Cette application fournit une **API REST** et une **page web de test** pour anal
 ├── app/
 │   └── main.py           # Application FastAPI
 │── static/
-│   └── index.html    # Page test frontend
+│   └── index.html        # Page test frontend
 ├── requirements.txt      # Dépendances Python
 ├── Dockerfile            # Image Docker
 └── README.md             # Documentation
