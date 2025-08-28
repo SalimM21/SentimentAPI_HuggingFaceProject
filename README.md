@@ -16,7 +16,7 @@ Cette application fournit une **API REST** et une **page web de test** pour anal
 │   └── index.html    # Page test frontend
 ├── requirements.txt      # Dépendances Python
 ├── Dockerfile            # Image Docker
-├── README.md             # Documentation
+└── README.md             # Documentation
 ```
 
 ---
