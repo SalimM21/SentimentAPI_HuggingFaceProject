@@ -119,7 +119,7 @@ L’application expose aussi une **page HTML minimaliste** :
 
 ---
 
-## ✅ TODO
+##  TODO
 
 - [ ] Ajouter un modèle multilingue (par ex. `nlptown/bert-base-multilingual-uncased-sentiment`)  
 - [ ] Ajouter une UI Gradio pour la démo  
@@ -127,7 +127,7 @@ L’application expose aussi une **page HTML minimaliste** :
 
 ---
 
-## 📜 Licence
+## Licence
 
 Ce projet est sous licence MIT.  
 Le modèle appartient à Hugging Face et ses contributeurs.
