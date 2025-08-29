@@ -112,7 +112,7 @@ POST /predict
 
 ---
 
-## 🖼️ Page de test (Frontend)
+## Page de test (Frontend)
 
 L’application expose aussi une **page HTML minimaliste** :  
 👉 [http://localhost:8000/static/index.html](http://localhost:8000/static/index.html)
