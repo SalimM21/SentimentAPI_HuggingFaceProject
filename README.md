@@ -119,9 +119,9 @@ L’application expose aussi une **page HTML minimaliste** :
 
 ---
 
-##  TODO
+##  Besides
 
-- [ ] Ajouter un modèle multilingue (par ex. `nlptown/bert-base-multilingual-uncased-sentiment`)  
+- [ ] Ajouter un modèle multilingue (`nlptown/bert-base-multilingual-uncased-sentiment`)  
 - [ ] Ajouter une UI Gradio pour la démo  
 - [ ] Intégrer des tests unitaires  
 
