@@ -3,36 +3,43 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: ''
-assignees: ''
+assignees: SalimM21
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+# [Bug] Titre concis du bug
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+## Description
+Expliquez clairement le problème et pourquoi c’est un bug.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Impact / Gravité
+- High / Medium / Low
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Environnement
+| Platform | OS | Browser | Version |
+|----------|----|--------|--------|
+| Desktop | Windows 11 | Chrome | 118 |
+| Mobile | iOS 17 | Safari | 17.4 |
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+## Étapes pour reproduire
+1. Aller à '...'
+2. Cliquer sur '...'
+3. Dérouler jusqu’à '...'
+4. Voir l’erreur
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+## Comportement attendu
+Expliquez ce que vous attendiez à la place.
 
-**Additional context**
-Add any other context about the problem here.
+## Captures d’écran / Logs
+- Screenshots
+- Logs ou messages d’erreur
+
+## Version du projet
+- Version / Build / Commit SHA
+
+## Contexte additionnel
+Ajoutez toute information utile pour comprendre le problème.
+
+## Informations optionnelles
+- Assignees:
+- Labels:
