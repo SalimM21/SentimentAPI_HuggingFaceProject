@@ -1,21 +1,44 @@
-# Security Policy
+# 🔐 Security Policy – Sentiment Analysis API
 
-## Supported Versions
+## 📌 Versions supportées
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Le tableau ci-dessous indique les versions actuellement **maintenues avec des mises à jour de sécurité**.  
+Seules les versions stables sont corrigées en cas de vulnérabilités signalées.  
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version   | Supportée ?        |
+| --------- | ------------------ |
+| 1.0.x     | ✅ Oui              |
+| 0.9.x     | ❌ Non              |
+| < 0.9     | ❌ Non              |
 
-## Reporting a Vulnerability
+---
 
-Use this section to tell people how to report a vulnerability.
+## 🚨 Signalement d’une vulnérabilité
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Nous prenons la sécurité au sérieux.  
+Si vous découvrez une faille ou une vulnérabilité dans **Sentiment Analysis API**, veuillez nous en informer immédiatement.  
+
+### 📥 Comment signaler ?
+- Envoyez un email à : **[INSÉRER-EMAIL-DE-CONTACT]**  
+- Ouvrez une issue privée sur **GitHub/GitLab** avec l’étiquette `security`  
+
+### 🔄 Processus de traitement
+1. Accusé de réception sous **48h ouvrables**.  
+2. Analyse de la vulnérabilité et évaluation de son impact.  
+3. Communication régulière avec la personne qui a signalé (état d’avancement, délai de correction estimé).  
+4. Correctif publié dans une **version patch** (`x.y.z`).  
+
+### ⚠️ Bonnes pratiques lors du signalement
+- Fournir une description claire du problème.  
+- Inclure si possible un **exemple de code**, une **requête API** ou un **scénario de reproduction**.  
+- Ne pas divulguer publiquement la faille avant qu’un correctif officiel soit publié.  
+
+---
+
+## ✅ Engagement
+
+- Les vulnérabilités critiques seront traitées en priorité.  
+- Toute personne signalant une faille de bonne foi sera remerciée dans la section **Contributeurs** (sauf demande contraire).  
+- Nous nous engageons à maintenir ce projet sûr pour la communauté.  
+
+---
