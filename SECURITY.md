@@ -1,25 +1,12 @@
 # 🔐 Security Policy – Sentiment Analysis API
 
-## 📌 Versions supportées
-
-Le tableau ci-dessous indique les versions actuellement **maintenues avec des mises à jour de sécurité**.  
-Seules les versions stables sont corrigées en cas de vulnérabilités signalées.  
-
-| Version   | Supportée ?        |
-| --------- | ------------------ |
-| 1.0.x     | ✅ Oui              |
-| 0.9.x     | ❌ Non              |
-| < 0.9     | ❌ Non              |
-
----
-
 ## 🚨 Signalement d’une vulnérabilité
 
 Nous prenons la sécurité au sérieux.  
 Si vous découvrez une faille ou une vulnérabilité dans **Sentiment Analysis API**, veuillez nous en informer immédiatement.  
 
 ### 📥 Comment signaler ?
-- Envoyez un email à : **[INSÉRER-EMAIL-DE-CONTACT]**  
+- Envoyez un email à : **[salim.majide.officiel@gmail.com]**  
 - Ouvrez une issue privée sur **GitHub/GitLab** avec l’étiquette `security`  
 
 ### 🔄 Processus de traitement
