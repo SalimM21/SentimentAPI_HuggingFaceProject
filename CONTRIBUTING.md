@@ -38,4 +38,4 @@ Pour contribuer au code :
 1. **Fork** le projet
 2. **Clone** votre fork :
    ```bash
-   git clone https://github.com/votre-utilisateur/[Nom-du-Projet].git
+   git clone https://github.com/SalimM21/SentimentAPI_HuggingFaceProject.git
